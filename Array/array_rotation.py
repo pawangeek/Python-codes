@@ -21,8 +21,6 @@ for i in range(int(num)):
     n = input()
     arr.append(int(n))
 
-print("Select no. at which you want to rotate")
-s = input()
 
 print("Your reversed array is")
 leftr(arr,int(s),len(arr))
