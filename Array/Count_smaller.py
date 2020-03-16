@@ -1,3 +1,6 @@
+# Task to calculate the right small elements in array 
+# Naive Approach : O(n^2)
+
 t = int(input())
 
 while t:
