@@ -1,4 +1,4 @@
-# Task : to find element in rortated array
+# Task : To find element in rortated array
 # Complexity : O(n) since index operation is of O(n)
 
 t = int(input())
