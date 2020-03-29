@@ -1,3 +1,5 @@
+#https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/adamant-vowels-e0d3025d-64d0fae9/
+
 # Adamant Vowels of a string are vowels that remain at same index even if string is reversed.
 # Concept is to check every reversed letter
 

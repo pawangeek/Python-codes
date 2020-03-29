@@ -16,7 +16,6 @@ prefix_table = [0]*m
 prefix_count = 0
 
 for i in range(1,m):
-    print(word[i],word[prefix_count])
 
     if word[i]==word[prefix_count]:
         prefix_count+=1
@@ -29,6 +28,7 @@ print(prefix_table)
 
 j, positions = 0,[]
 for i in range(m):
+
     if pattern[j]==word[i]:
         if j == len(pattern)-1:
             positions.append(i+1-len(pattern))
