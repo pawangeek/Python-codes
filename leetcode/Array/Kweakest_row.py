@@ -1,7 +1,9 @@
 # https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/
 # The K Weakest Rows in a Matrix
 
-# Important : How to sort a dictionary acoording to values and get keys as list
+# Important : (i) How to sort a dictionary acoording to values and get keys as list (Print statement)
+#             (ii) Updating values in dict in python .update({key:value})
+
 mat = [[1,1,0,0,0],[1,1,1,1,0],[1,0,0,0,0],[1,1,0,0,0],[1,1,1,1,1]]
 k = 2
 
