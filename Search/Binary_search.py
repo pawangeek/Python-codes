@@ -5,8 +5,8 @@ t = int(input())
 arr = list(map(int,input().split()))
 l = 0
 
-while (l<=len(arr)):
-    mid = l+(len(arr)-l)//2
+while (l<=r):
+    mid = l+r//2
 
     if arr[mid]==t:
         print(mid)
