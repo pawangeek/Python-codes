@@ -1,8 +1,9 @@
 # Leftmost Column with at Least a One
 # https://leetcode.com/explore/challenge/card/30-day-leetcoding-challenge/530/week-3/3306/
 
-
+binaryMatrix = [[0,0],[0,1]]
 #n, m = len(binaryMatrix), len(binaryMatrix[0])
+
 n, m = binaryMatrix.dimensions()
 row = 0
 col = m-1
