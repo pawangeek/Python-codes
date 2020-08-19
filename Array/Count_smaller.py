@@ -20,3 +20,6 @@ while t:
         print(i,end=' ')
 
     t-=1
+
+# USing mergesort
+
