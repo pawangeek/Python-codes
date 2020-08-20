@@ -2,6 +2,6 @@
     "python.formatting.provider": "black",
     "python.pythonPath": "C:\\Users\\HP\\AppData\\Local\\Programs\\Python\\Python38\\python.exe",
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": ["--ignore=E225,E226,W293,E231,W292,W291,E501,W391,W191,E202 E203,E211, E251,E902,E228,E222,E305,E127,E261"]
+    "python.linting.flake8Args": ["--ignore=E225,E226,W293,E231,W292,W291,E501,W391,W191,E202 E203,E211, E251,E902,E228,E222,E305,E127,E261,E402"]
        
 }
