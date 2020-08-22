@@ -1,4 +1,4 @@
-#Sort input array using a O(n Log n) algorithm.
+# Sort input array using a O(n Log n) algorithm.
 '''We maintain two pointers, one from beginning and one from end in sorted array. 
    We alternatively print elements pointed by two pointers and move them toward each other.'''
 
