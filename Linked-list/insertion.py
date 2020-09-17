@@ -12,7 +12,6 @@ class LinkedList:
 		new_node.next = self.head	# Make next of new node as head
 		self.head=new_node			# Move head to point to new node
 
-
 	def insertafter(self,prev_node,new_data):
 		if prev_node is None:
 			print("Blank")
@@ -38,13 +37,15 @@ class LinkedList:
 	def printlist(self): 
 		temp=self.head
 		while (temp):
-			print (temp.data)
+			print (temp.data, end = ' -> ')
 			temp=temp.next
+
+		print('H')
 
 if __name__ == '__main__':
 	llist = LinkedList()
-	llist.push(7);
-	llist.append(4);
-	llist.push(1);
+	llist.push(7)
+	llist.append(4)
+	llist.push(1)
 	llist.insertafter(llist.head.next,9)
 	llist.printlist()

@@ -14,9 +14,11 @@ class LinkList:
         self.head = new_node
 
     def append(self, value):
+
         # If link list is empty
         if not self.head:
             self.push(value)
+            
         else:
             # Get to last node and add new node
             temp = self.head
@@ -27,11 +29,14 @@ class LinkList:
     def print(self):
         temp = self.head
         while temp:
-            print(temp.data)
+            print(temp.data, end = ' -> ')
             temp = temp.next
+
+        print(None)
 
 
 def SortedMerge(llist1, llist2):
+
     # Create a new Sorted Merge Link List
     sorted_merge_link = LinkList()
 
