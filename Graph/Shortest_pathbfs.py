@@ -1,22 +1,5 @@
 from collections import defaultdict, deque
-# import networkx as nx  
-# import matplotlib.pyplot as plt 
 
-# g = nx.Graph()
-
-# g.add_edge(0, 1) 
-# g.add_edge(0, 3) 
-# g.add_edge(1, 2) 
-# g.add_edge(3, 4) 
-# g.add_edge(3, 7)
-# g.add_edge(4, 5) 
-# g.add_edge(4, 6) 
-# g.add_edge(4, 7) 
-# g.add_edge(5, 6) 
-# g.add_edge(6, 7)
-
-# nx.draw(g, with_labels = True) 
-# plt.savefig("filename.png")
 
 def addEdge(graph,u,v): 
     graph[u].append(v) 
