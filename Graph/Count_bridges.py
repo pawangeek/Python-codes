@@ -33,6 +33,8 @@ class Graph:
         u           --> The vertex to be visited v 
         visited[]   --> keeps tract of visited vertices 
         disc[]      --> Stores discovery times of visited vertices 
+                    --> (Indicate the dicovery time of node)
+        low[]       --> Indicate whether there's some early node that can be visited by subtree rooted with that node
         parent[]    --> Stores parent vertices in DFS tree
 
         """
